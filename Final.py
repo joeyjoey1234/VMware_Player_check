@@ -16,7 +16,7 @@ def run_ssh_server(c):
     if c == False:
         print("starting vm ssh server")
         #### This line call upon vmplayer.exe and your .vmx file for the vm you want to run
-        subprocess.call('C:\Program Files (x86)\VMware\VMware Player\\vmplayer.exe E:\ssh server\SSH server.vmx')
+        subprocess.call(['C:\Program Files (x86)\VMware\VMware Player\\vmplayer.exe','E:\ssh server\SSH server.vmx'])
     else:
         print('ssh server is running')
         pass
