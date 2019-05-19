@@ -6,6 +6,8 @@ import subprocess
 
 import time
 
+In Final Script, Make sure to replace my .vmx file location with your .vmx file of the machine you wish to run
+
 Create task in task scheduler for this Final.py to run on login
 
 Final.py is the final
