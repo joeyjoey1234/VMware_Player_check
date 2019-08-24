@@ -16,7 +16,7 @@ The check for the vmplayer.exe process is done every 30 min
 
 Once vmplayer.exe is taken down or during a reboot, vmware should be restart with desired vm if it is allready not running.
 
-Version 2.00
+Version 2.00 ***********UPDATE***
 
 import os
 
