@@ -14,6 +14,7 @@ title2_vmx = 'E:\Web Server\\Web Server.vmx'
 title3 = 'virl.1.6.65.pc - VMware Workstation 15 Player'
 title3_vmx = 'E:\Virl\\virl.1.6.65.pc.vmx'
 
+sleep_time = 1800
 
 titles = [title1, title2, title3]
 
@@ -47,5 +48,5 @@ while True:
     for x in titles:
         vm_player_check(x)
         print("starting sleep")
-    time.sleep(1800)
+    time.sleep(sleep_time)
     print('ending sleep loop')
